@@ -22,7 +22,7 @@ class ButtonActions: BaseActions {
 //  MARK: - Action Area
     
     @discardableResult
-    func setTarget(_ target: Any, _ action: Selector , _ event: UIControl.Event) -> Self {
+    public func setTarget(_ target: Any, _ action: Selector , _ event: UIControl.Event) -> Self {
         self.buttonBuilder.view.addTarget(target, action: action, for: event )
         return self
     }

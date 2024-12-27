@@ -1,7 +1,3 @@
-//
-//  DropdownMenuBuilder.swift
-//  Smaapper
-//
 //  Created by Alessandro Comparini on 24/05/23.
 //
 
@@ -263,9 +259,7 @@ class DropdownMenuBuilder: BaseBuilder {
     }
     
     private func isTappedOutDropdownMenu(_ touchPoint: CGPoint) -> Bool {
-        if self.dropdown.frame.contains(touchPoint) {
-            return false
-        }
+        if self.dropdown.frame.contains(touchPoint) { return false }
         return true
     }
     

@@ -245,7 +245,6 @@ class ClockNeumorphism: ViewBuilder {
         configTwoPointsConstraint()
         configStackMinutesConstraint()
         day.applyConstraint()
-
     }
     
     private func configStackHoursConstraint() {
@@ -276,7 +275,5 @@ class ClockNeumorphism: ViewBuilder {
                 .apply()
         })
     }
-    
-    
     
 }

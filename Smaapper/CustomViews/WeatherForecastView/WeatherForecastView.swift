@@ -39,7 +39,6 @@ class WeatherForecastView: ViewBuilder {
         return img
     }()
     
-
     lazy var locationImageView: ImageViewBuilder = {
         let img = ImageViewBuilder(UIImage(systemName: "location.fill"))
             .setSize(12)
@@ -52,8 +51,6 @@ class WeatherForecastView: ViewBuilder {
             }
         return img
     }()
-
-    
     
     lazy var temperatureLabel: LabelBuilder = {
         let label = LabelBuilder("25")
