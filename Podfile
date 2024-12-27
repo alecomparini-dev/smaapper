@@ -6,6 +6,6 @@ target 'Smaapper' do
   use_frameworks!
 
   # Pods for Smaapper
-  pod 'RealmSwift', '~>10.41'
+  pod 'RealmSwift', '~> 20.0'
 
 end

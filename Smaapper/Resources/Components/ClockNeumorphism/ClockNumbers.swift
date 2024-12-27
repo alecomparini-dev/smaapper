@@ -83,29 +83,17 @@ class ClockNumbers: View {
     
 
 //  MARK: - MIDDLE STROKE
-    lazy var topMiddleStrokeView: ViewBuilder = {
-        return createView(false)
-    }()
+    lazy var topMiddleStrokeView: ViewBuilder = { return createView(false) }()
     
-    lazy var middleStrokeView: ViewBuilder = {
-        return createView(false)
-    }()
+    lazy var middleStrokeView: ViewBuilder = { return createView(false) }()
     
-    lazy var middleBottomView: ViewBuilder = {
-        return createView(false)
-    }()
+    lazy var middleBottomView: ViewBuilder = { return createView(false) }()
     
-    lazy var topMiddleStroke: ViewBuilder = {
-        return (hasTopMiddleStroke.contains(number)) ? createView(true) : ViewBuilder()
-    }()
+    lazy var topMiddleStroke: ViewBuilder = { return (hasTopMiddleStroke.contains(number)) ? createView(true) : ViewBuilder() }()
     
-    lazy var middleStroke: ViewBuilder = {
-        return (hasMiddleStroke.contains(number)) ? createView(true) : ViewBuilder()
-    }()
+    lazy var middleStroke: ViewBuilder = { return (hasMiddleStroke.contains(number)) ? createView(true) : ViewBuilder() }()
     
-    lazy var bottomMiddleStroke: ViewBuilder = {
-        return (hasBottomMiddleStroke.contains(number)) ? createView(true) : ViewBuilder()
-    }()
+    lazy var bottomMiddleStroke: ViewBuilder = { return (hasBottomMiddleStroke.contains(number)) ? createView(true) : ViewBuilder() }()
     
 
 //  MARK: - RIGHT STROKE
@@ -152,7 +140,6 @@ class ClockNumbers: View {
         topMiddleStrokeView.add(insideTo: stackMiddle.view)
         middleStrokeView.add(insideTo: stackMiddle.view)
         middleBottomView.add(insideTo: stackMiddle.view)
-        
         topMiddleStroke.add(insideTo: topMiddleStrokeView.view)
         middleStroke.add(insideTo: middleStrokeView.view)
         bottomMiddleStroke.add(insideTo: middleBottomView.view)
@@ -168,11 +155,9 @@ class ClockNumbers: View {
         configStackLeftConstraints()
         configStackMiddleConstraints()
         configStackRightConstraints()
-        
         configTopMiddleStrokeConstraints()
         configMiddleStrokeConstraints()
         configBottomMiddleStrokeConstraints()
-
     }
     
     private func configStackLeftConstraints() {

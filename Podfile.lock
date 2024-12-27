@@ -1,12 +1,12 @@
 PODS:
-  - Realm (10.41.0):
-    - Realm/Headers (= 10.41.0)
-  - Realm/Headers (10.41.0)
-  - RealmSwift (10.41.0):
-    - Realm (= 10.41.0)
+  - Realm (20.0.0):
+    - Realm/Headers (= 20.0.0)
+  - Realm/Headers (20.0.0)
+  - RealmSwift (20.0.0):
+    - Realm (= 20.0.0)
 
 DEPENDENCIES:
-  - RealmSwift (~> 10.41)
+  - RealmSwift (~> 20.0)
 
 SPEC REPOS:
   trunk:
@@ -14,9 +14,9 @@ SPEC REPOS:
     - RealmSwift
 
 SPEC CHECKSUMS:
-  Realm: 669efee7dc1ce0aa9f6739a60f8c0df0a3835067
-  RealmSwift: 6b7b0e91b79dc66d5cfceeb3b319cacfc9b1a70e
+  Realm: a799b5f9145623fb0bfe149fe81422863631dd0f
+  RealmSwift: f8c4354ebd5053343e6ab9f4eda244145308a51e
 
-PODFILE CHECKSUM: 5cf52c6c230a34b051272f4ef3997f14928e0b1b
+PODFILE CHECKSUM: 760d0aba7f1601778bac005946e626d595f2be41
 
-COCOAPODS: 1.13.0
+COCOAPODS: 1.15.2
